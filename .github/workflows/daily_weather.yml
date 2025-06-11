@@ -1,5 +1,8 @@
 name: Daily Weather
 
+permissions:
+  contents: write
+
 on:
   schedule:
     - cron: '0 0 * * *'
